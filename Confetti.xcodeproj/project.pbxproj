@@ -9,7 +9,23 @@
 /* Begin PBXBuildFile section */
 		FF245B8C1FE0581900E202F1 /* Confetti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF245B821FE0581900E202F1 /* Confetti.framework */; };
 		FF245B911FE0581900E202F1 /* ConfettiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245B901FE0581900E202F1 /* ConfettiTests.swift */; };
-		FF245B931FE0581900E202F1 /* Confetti.h in Headers */ = {isa = PBXBuildFile; fileRef = FF245B851FE0581900E202F1 /* Confetti.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF245BA01FE0588E00E202F1 /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245B9F1FE0588E00E202F1 /* Confetti.swift */; };
+		FF245BA21FE058B800E202F1 /* ButtonConfetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BA11FE058B800E202F1 /* ButtonConfetti.swift */; };
+		FF245BA41FE058DC00E202F1 /* LabelConfetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BA31FE058DC00E202F1 /* LabelConfetti.swift */; };
+		FF245BA61FE058F000E202F1 /* ViewConfetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BA51FE058F000E202F1 /* ViewConfetti.swift */; };
+		FF245BAD1FE0607500E202F1 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BAC1FE0607500E202F1 /* ButtonDesign.swift */; };
+		FF245BAF1FE0607F00E202F1 /* LabelDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BAE1FE0607F00E202F1 /* LabelDesign.swift */; };
+		FF245BB11FE0608800E202F1 /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BB01FE0608800E202F1 /* ViewDesign.swift */; };
+		FF245BB91FE061E100E202F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BB81FE061E100E202F1 /* AppDelegate.swift */; };
+		FF245BBB1FE061E100E202F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BBA1FE061E100E202F1 /* ViewController.swift */; };
+		FF245BBE1FE061E100E202F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF245BBC1FE061E100E202F1 /* Main.storyboard */; };
+		FF245BC01FE061E100E202F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF245BBF1FE061E100E202F1 /* Assets.xcassets */; };
+		FF245BC31FE061E100E202F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF245BC11FE061E100E202F1 /* LaunchScreen.storyboard */; };
+		FF245BCE1FE061E100E202F1 /* ConfettiExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BCD1FE061E100E202F1 /* ConfettiExampleTests.swift */; };
+		FF245BD91FE061E100E202F1 /* ConfettiExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BD81FE061E100E202F1 /* ConfettiExampleUITests.swift */; };
+		FF245BE51FE0647500E202F1 /* Confetti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF245B821FE0581900E202F1 /* Confetti.framework */; };
+		FF245BE71FE065F000E202F1 /* ConfettiDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BE61FE065F000E202F1 /* ConfettiDesign.swift */; };
+		FF245BE91FE07EDF00E202F1 /* ButtonDesignTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BE81FE07EDF00E202F1 /* ButtonDesignTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,15 +36,50 @@
 			remoteGlobalIDString = FF245B811FE0581900E202F1;
 			remoteInfo = Confetti;
 		};
+		FF245BCA1FE061E100E202F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF245B791FE0581900E202F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF245BB51FE061E100E202F1;
+			remoteInfo = ConfettiExample;
+		};
+		FF245BD51FE061E100E202F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF245B791FE0581900E202F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF245BB51FE061E100E202F1;
+			remoteInfo = ConfettiExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FF245B821FE0581900E202F1 /* Confetti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Confetti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF245B851FE0581900E202F1 /* Confetti.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Confetti.h; sourceTree = "<group>"; };
 		FF245B861FE0581900E202F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF245B8B1FE0581900E202F1 /* ConfettiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfettiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF245B901FE0581900E202F1 /* ConfettiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiTests.swift; sourceTree = "<group>"; };
 		FF245B921FE0581900E202F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF245B9F1FE0588E00E202F1 /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
+		FF245BA11FE058B800E202F1 /* ButtonConfetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonConfetti.swift; sourceTree = "<group>"; };
+		FF245BA31FE058DC00E202F1 /* LabelConfetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelConfetti.swift; sourceTree = "<group>"; };
+		FF245BA51FE058F000E202F1 /* ViewConfetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfetti.swift; sourceTree = "<group>"; };
+		FF245BAC1FE0607500E202F1 /* ButtonDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
+		FF245BAE1FE0607F00E202F1 /* LabelDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDesign.swift; sourceTree = "<group>"; };
+		FF245BB01FE0608800E202F1 /* ViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
+		FF245BB61FE061E100E202F1 /* ConfettiExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfettiExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF245BB81FE061E100E202F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF245BBA1FE061E100E202F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF245BBD1FE061E100E202F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF245BBF1FE061E100E202F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF245BC21FE061E100E202F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF245BC41FE061E100E202F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF245BC91FE061E100E202F1 /* ConfettiExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfettiExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF245BCD1FE061E100E202F1 /* ConfettiExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiExampleTests.swift; sourceTree = "<group>"; };
+		FF245BCF1FE061E100E202F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF245BD41FE061E100E202F1 /* ConfettiExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfettiExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF245BD81FE061E100E202F1 /* ConfettiExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiExampleUITests.swift; sourceTree = "<group>"; };
+		FF245BDA1FE061E100E202F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF245BE61FE065F000E202F1 /* ConfettiDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiDesign.swift; sourceTree = "<group>"; };
+		FF245BE81FE07EDF00E202F1 /* ButtonDesignTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesignTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +98,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF245BB31FE061E100E202F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF245BE51FE0647500E202F1 /* Confetti.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF245BC61FE061E100E202F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF245BD11FE061E100E202F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +128,11 @@
 			children = (
 				FF245B841FE0581900E202F1 /* Confetti */,
 				FF245B8F1FE0581900E202F1 /* ConfettiTests */,
+				FF245BB71FE061E100E202F1 /* ConfettiExample */,
+				FF245BCC1FE061E100E202F1 /* ConfettiExampleTests */,
+				FF245BD71FE061E100E202F1 /* ConfettiExampleUITests */,
 				FF245B831FE0581900E202F1 /* Products */,
+				FF245BE41FE0647500E202F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +141,9 @@
 			children = (
 				FF245B821FE0581900E202F1 /* Confetti.framework */,
 				FF245B8B1FE0581900E202F1 /* ConfettiTests.xctest */,
+				FF245BB61FE061E100E202F1 /* ConfettiExample.app */,
+				FF245BC91FE061E100E202F1 /* ConfettiExampleTests.xctest */,
+				FF245BD41FE061E100E202F1 /* ConfettiExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +151,12 @@
 		FF245B841FE0581900E202F1 /* Confetti */ = {
 			isa = PBXGroup;
 			children = (
-				FF245B851FE0581900E202F1 /* Confetti.h */,
+				FF245B9D1FE0587400E202F1 /* button */,
+				FF245B9E1FE0587400E202F1 /* label */,
+				FF245B9C1FE0587400E202F1 /* view */,
 				FF245B861FE0581900E202F1 /* Info.plist */,
+				FF245B9F1FE0588E00E202F1 /* Confetti.swift */,
+				FF245BE61FE065F000E202F1 /* ConfettiDesign.swift */,
 			);
 			path = Confetti;
 			sourceTree = "<group>";
@@ -86,6 +170,96 @@
 			path = ConfettiTests;
 			sourceTree = "<group>";
 		};
+		FF245B9C1FE0587400E202F1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FF245BA91FE05FC900E202F1 /* design */,
+				FF245BA51FE058F000E202F1 /* ViewConfetti.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FF245B9D1FE0587400E202F1 /* button */ = {
+			isa = PBXGroup;
+			children = (
+				FF245BAA1FE0606100E202F1 /* design */,
+				FF245BA11FE058B800E202F1 /* ButtonConfetti.swift */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+		FF245B9E1FE0587400E202F1 /* label */ = {
+			isa = PBXGroup;
+			children = (
+				FF245BAB1FE0606700E202F1 /* design */,
+				FF245BA31FE058DC00E202F1 /* LabelConfetti.swift */,
+			);
+			path = label;
+			sourceTree = "<group>";
+		};
+		FF245BA91FE05FC900E202F1 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				FF245BB01FE0608800E202F1 /* ViewDesign.swift */,
+			);
+			path = design;
+			sourceTree = "<group>";
+		};
+		FF245BAA1FE0606100E202F1 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				FF245BAC1FE0607500E202F1 /* ButtonDesign.swift */,
+				FF245BE81FE07EDF00E202F1 /* ButtonDesignTemplate.swift */,
+			);
+			path = design;
+			sourceTree = "<group>";
+		};
+		FF245BAB1FE0606700E202F1 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				FF245BAE1FE0607F00E202F1 /* LabelDesign.swift */,
+			);
+			path = design;
+			sourceTree = "<group>";
+		};
+		FF245BB71FE061E100E202F1 /* ConfettiExample */ = {
+			isa = PBXGroup;
+			children = (
+				FF245BB81FE061E100E202F1 /* AppDelegate.swift */,
+				FF245BBA1FE061E100E202F1 /* ViewController.swift */,
+				FF245BBC1FE061E100E202F1 /* Main.storyboard */,
+				FF245BBF1FE061E100E202F1 /* Assets.xcassets */,
+				FF245BC11FE061E100E202F1 /* LaunchScreen.storyboard */,
+				FF245BC41FE061E100E202F1 /* Info.plist */,
+			);
+			path = ConfettiExample;
+			sourceTree = "<group>";
+		};
+		FF245BCC1FE061E100E202F1 /* ConfettiExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF245BCD1FE061E100E202F1 /* ConfettiExampleTests.swift */,
+				FF245BCF1FE061E100E202F1 /* Info.plist */,
+			);
+			path = ConfettiExampleTests;
+			sourceTree = "<group>";
+		};
+		FF245BD71FE061E100E202F1 /* ConfettiExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF245BD81FE061E100E202F1 /* ConfettiExampleUITests.swift */,
+				FF245BDA1FE061E100E202F1 /* Info.plist */,
+			);
+			path = ConfettiExampleUITests;
+			sourceTree = "<group>";
+		};
+		FF245BE41FE0647500E202F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +267,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF245B931FE0581900E202F1 /* Confetti.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +309,59 @@
 			productReference = FF245B8B1FE0581900E202F1 /* ConfettiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FF245BB51FE061E100E202F1 /* ConfettiExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF245BDB1FE061E100E202F1 /* Build configuration list for PBXNativeTarget "ConfettiExample" */;
+			buildPhases = (
+				FF245BB21FE061E100E202F1 /* Sources */,
+				FF245BB31FE061E100E202F1 /* Frameworks */,
+				FF245BB41FE061E100E202F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConfettiExample;
+			productName = ConfettiExample;
+			productReference = FF245BB61FE061E100E202F1 /* ConfettiExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF245BC81FE061E100E202F1 /* ConfettiExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF245BDE1FE061E100E202F1 /* Build configuration list for PBXNativeTarget "ConfettiExampleTests" */;
+			buildPhases = (
+				FF245BC51FE061E100E202F1 /* Sources */,
+				FF245BC61FE061E100E202F1 /* Frameworks */,
+				FF245BC71FE061E100E202F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF245BCB1FE061E100E202F1 /* PBXTargetDependency */,
+			);
+			name = ConfettiExampleTests;
+			productName = ConfettiExampleTests;
+			productReference = FF245BC91FE061E100E202F1 /* ConfettiExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF245BD31FE061E100E202F1 /* ConfettiExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF245BE11FE061E100E202F1 /* Build configuration list for PBXNativeTarget "ConfettiExampleUITests" */;
+			buildPhases = (
+				FF245BD01FE061E100E202F1 /* Sources */,
+				FF245BD11FE061E100E202F1 /* Frameworks */,
+				FF245BD21FE061E100E202F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF245BD61FE061E100E202F1 /* PBXTargetDependency */,
+			);
+			name = ConfettiExampleUITests;
+			productName = ConfettiExampleUITests;
+			productReference = FF245BD41FE061E100E202F1 /* ConfettiExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,11 +374,26 @@
 				TargetAttributes = {
 					FF245B811FE0581900E202F1 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					FF245B8A1FE0581900E202F1 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+					};
+					FF245BB51FE061E100E202F1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FF245BC81FE061E100E202F1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF245BB51FE061E100E202F1;
+					};
+					FF245BD31FE061E100E202F1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF245BB51FE061E100E202F1;
 					};
 				};
 			};
@@ -162,6 +403,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = FF245B781FE0581900E202F1;
 			productRefGroup = FF245B831FE0581900E202F1 /* Products */;
@@ -170,6 +412,9 @@
 			targets = (
 				FF245B811FE0581900E202F1 /* Confetti */,
 				FF245B8A1FE0581900E202F1 /* ConfettiTests */,
+				FF245BB51FE061E100E202F1 /* ConfettiExample */,
+				FF245BC81FE061E100E202F1 /* ConfettiExampleTests */,
+				FF245BD31FE061E100E202F1 /* ConfettiExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -189,6 +434,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF245BB41FE061E100E202F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF245BC31FE061E100E202F1 /* LaunchScreen.storyboard in Resources */,
+				FF245BC01FE061E100E202F1 /* Assets.xcassets in Resources */,
+				FF245BBE1FE061E100E202F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF245BC71FE061E100E202F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF245BD21FE061E100E202F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -196,6 +465,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF245BAF1FE0607F00E202F1 /* LabelDesign.swift in Sources */,
+				FF245BE91FE07EDF00E202F1 /* ButtonDesignTemplate.swift in Sources */,
+				FF245BA61FE058F000E202F1 /* ViewConfetti.swift in Sources */,
+				FF245BA41FE058DC00E202F1 /* LabelConfetti.swift in Sources */,
+				FF245BA01FE0588E00E202F1 /* Confetti.swift in Sources */,
+				FF245BB11FE0608800E202F1 /* ViewDesign.swift in Sources */,
+				FF245BE71FE065F000E202F1 /* ConfettiDesign.swift in Sources */,
+				FF245BA21FE058B800E202F1 /* ButtonConfetti.swift in Sources */,
+				FF245BAD1FE0607500E202F1 /* ButtonDesign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +485,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF245BB21FE061E100E202F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF245BBB1FE061E100E202F1 /* ViewController.swift in Sources */,
+				FF245BB91FE061E100E202F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF245BC51FE061E100E202F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF245BCE1FE061E100E202F1 /* ConfettiExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF245BD01FE061E100E202F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF245BD91FE061E100E202F1 /* ConfettiExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,7 +518,36 @@
 			target = FF245B811FE0581900E202F1 /* Confetti */;
 			targetProxy = FF245B8D1FE0581900E202F1 /* PBXContainerItemProxy */;
 		};
+		FF245BCB1FE061E100E202F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF245BB51FE061E100E202F1 /* ConfettiExample */;
+			targetProxy = FF245BCA1FE061E100E202F1 /* PBXContainerItemProxy */;
+		};
+		FF245BD61FE061E100E202F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF245BB51FE061E100E202F1 /* ConfettiExample */;
+			targetProxy = FF245BD51FE061E100E202F1 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF245BBC1FE061E100E202F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF245BBD1FE061E100E202F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF245BC11FE061E100E202F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF245BC21FE061E100E202F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FF245B941FE0581900E202F1 /* Debug */ = {
@@ -334,6 +666,7 @@
 		FF245B971FE0581900E202F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +680,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.Confetti;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +689,7 @@
 		FF245B981FE0581900E202F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +711,7 @@
 		FF245B9A1FE0581900E202F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DC7JXK236W;
 				INFOPLIST_FILE = ConfettiTests/Info.plist;
@@ -390,6 +726,7 @@
 		FF245B9B1FE0581900E202F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DC7JXK236W;
 				INFOPLIST_FILE = ConfettiTests/Info.plist;
@@ -398,6 +735,102 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF245BDC1FE061E100E202F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC7JXK236W;
+				INFOPLIST_FILE = ConfettiExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.ConfettiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF245BDD1FE061E100E202F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC7JXK236W;
+				INFOPLIST_FILE = ConfettiExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.ConfettiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF245BDF1FE061E100E202F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC7JXK236W;
+				INFOPLIST_FILE = ConfettiExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.ConfettiExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConfettiExample.app/ConfettiExample";
+			};
+			name = Debug;
+		};
+		FF245BE01FE061E100E202F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC7JXK236W;
+				INFOPLIST_FILE = ConfettiExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.ConfettiExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConfettiExample.app/ConfettiExample";
+			};
+			name = Release;
+		};
+		FF245BE21FE061E100E202F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC7JXK236W;
+				INFOPLIST_FILE = ConfettiExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.ConfettiExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConfettiExample;
+			};
+			name = Debug;
+		};
+		FF245BE31FE061E100E202F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC7JXK236W;
+				INFOPLIST_FILE = ConfettiExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.ConfettiExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConfettiExample;
 			};
 			name = Release;
 		};
@@ -427,6 +860,33 @@
 			buildConfigurations = (
 				FF245B9A1FE0581900E202F1 /* Debug */,
 				FF245B9B1FE0581900E202F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF245BDB1FE061E100E202F1 /* Build configuration list for PBXNativeTarget "ConfettiExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF245BDC1FE061E100E202F1 /* Debug */,
+				FF245BDD1FE061E100E202F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF245BDE1FE061E100E202F1 /* Build configuration list for PBXNativeTarget "ConfettiExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF245BDF1FE061E100E202F1 /* Debug */,
+				FF245BE01FE061E100E202F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF245BE11FE061E100E202F1 /* Build configuration list for PBXNativeTarget "ConfettiExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF245BE21FE061E100E202F1 /* Debug */,
+				FF245BE31FE061E100E202F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
