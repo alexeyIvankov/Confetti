@@ -15,17 +15,8 @@ public protocol Confetti : class {
     func apply(design:ConfettiDesign)
 }
 
-extension Confetti {
-    func apply(design:ConfettiDesign) {
-        
-    }
-}
-
 public protocol ConfettiContainer {
     func applyAll(designs:[ConfettiDesign])
 }
 
-extension ConfettiContainer {
-    func applyAll(designs:[ConfettiDesign]){
-    }
-}
+

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class LabelConfetti : UILabel, Confetti {
+open class LabelConfetti : UILabel, Confetti {
     
     @IBInspectable public var congettiID:String?
     

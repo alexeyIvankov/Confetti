@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class ViewConfetti : UIView, Confetti, ConfettiContainer {
+open class ViewConfetti : UIView, Confetti, ConfettiContainer {
     @IBInspectable public var congettiID:String?
     
     //MARK: - Confetti

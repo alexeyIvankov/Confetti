@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class ButtonConfetti : UIButton, Confetti {
+open class ButtonConfetti : UIButton, Confetti {
     @IBInspectable public var congettiID:String?
     
     public func apply(design:ConfettiDesign)
@@ -27,8 +27,6 @@ public class ButtonConfetti : UIButton, Confetti {
             if buttonDesign.image != nil{
                 self.setImage(buttonDesign.image!.0, for: buttonDesign.image!.1)
             }
-            
         }
-        
     }
 }
