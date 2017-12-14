@@ -11,12 +11,11 @@ import Confetti
 
 class ViewController: UIViewController {
 
+    @IBOutlet var bt:UIButton!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        if let container = self.view as? ConfettiContainer {
-            container.applyAll(designs: buildDesign())
-        }
+        super.viewDidLoad()        
+        self.view.apply(designs: buildDesign())
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -31,13 +30,14 @@ class ViewController: UIViewController {
         
         var design:[ConfettiDesign] = []
         
-        let button1Design:ButtonDesignTemplate = ButtonDesignTemplate(congettiID: "button1")
+        let button1Design:ButtonDesign = ButtonDesign(confettiID: "button1")
         button1Design.backgroundColor = UIColor.blue
+        button1Design.title = ("кнопка 1", UIControlState.normal)
     
-        let button2Design:ButtonDesignTemplate = ButtonDesignTemplate(congettiID: "button2")
+        let button2Design:ButtonDesign = ButtonDesign(confettiID: "button2")
         button2Design.backgroundColor = UIColor.green
         
-        let button3Design:ButtonDesignTemplate = ButtonDesignTemplate(congettiID: "button3")
+        let button3Design:ButtonDesign = ButtonDesign(confettiID: "button3")
         button3Design.backgroundColor = UIColor.yellow
         
         design.append(button1Design)

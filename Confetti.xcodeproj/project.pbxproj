@@ -10,12 +10,6 @@
 		FF245B8C1FE0581900E202F1 /* Confetti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF245B821FE0581900E202F1 /* Confetti.framework */; };
 		FF245B911FE0581900E202F1 /* ConfettiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245B901FE0581900E202F1 /* ConfettiTests.swift */; };
 		FF245BA01FE0588E00E202F1 /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245B9F1FE0588E00E202F1 /* Confetti.swift */; };
-		FF245BA21FE058B800E202F1 /* ButtonConfetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BA11FE058B800E202F1 /* ButtonConfetti.swift */; };
-		FF245BA41FE058DC00E202F1 /* LabelConfetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BA31FE058DC00E202F1 /* LabelConfetti.swift */; };
-		FF245BA61FE058F000E202F1 /* ViewConfetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BA51FE058F000E202F1 /* ViewConfetti.swift */; };
-		FF245BAD1FE0607500E202F1 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BAC1FE0607500E202F1 /* ButtonDesign.swift */; };
-		FF245BAF1FE0607F00E202F1 /* LabelDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BAE1FE0607F00E202F1 /* LabelDesign.swift */; };
-		FF245BB11FE0608800E202F1 /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BB01FE0608800E202F1 /* ViewDesign.swift */; };
 		FF245BB91FE061E100E202F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BB81FE061E100E202F1 /* AppDelegate.swift */; };
 		FF245BBB1FE061E100E202F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BBA1FE061E100E202F1 /* ViewController.swift */; };
 		FF245BBE1FE061E100E202F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF245BBC1FE061E100E202F1 /* Main.storyboard */; };
@@ -25,8 +19,14 @@
 		FF245BD91FE061E100E202F1 /* ConfettiExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BD81FE061E100E202F1 /* ConfettiExampleUITests.swift */; };
 		FF245BE51FE0647500E202F1 /* Confetti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF245B821FE0581900E202F1 /* Confetti.framework */; };
 		FF245BE71FE065F000E202F1 /* ConfettiDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BE61FE065F000E202F1 /* ConfettiDesign.swift */; };
-		FF245BE91FE07EDF00E202F1 /* ButtonDesignTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245BE81FE07EDF00E202F1 /* ButtonDesignTemplate.swift */; };
 		FF245BEB1FE0817400E202F1 /* Confetti.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FF245BEA1FE0817400E202F1 /* Confetti.podspec */; };
+		FF2BD4F41FE1EC5F00E31AA3 /* UIButton+Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD4F31FE1EC5F00E31AA3 /* UIButton+Confetti.swift */; };
+		FF2BD4F61FE1ED1C00E31AA3 /* UILabel+Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD4F51FE1ED1C00E31AA3 /* UILabel+Confetti.swift */; };
+		FF2BD4F81FE1ED5900E31AA3 /* UIView+Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD4F71FE1ED5900E31AA3 /* UIView+Confetti.swift */; };
+		FF2BD5011FE1F7A200E31AA3 /* ConfettiContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD5001FE1F7A200E31AA3 /* ConfettiContainer.swift */; };
+		FF2BD5031FE1F93C00E31AA3 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD5021FE1F93C00E31AA3 /* ButtonDesign.swift */; };
+		FF2BD5051FE1F94300E31AA3 /* LabelDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD5041FE1F94300E31AA3 /* LabelDesign.swift */; };
+		FF2BD5071FE1F94A00E31AA3 /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD5061FE1F94A00E31AA3 /* ViewDesign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,12 +60,6 @@
 		FF245B901FE0581900E202F1 /* ConfettiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiTests.swift; sourceTree = "<group>"; };
 		FF245B921FE0581900E202F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF245B9F1FE0588E00E202F1 /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
-		FF245BA11FE058B800E202F1 /* ButtonConfetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonConfetti.swift; sourceTree = "<group>"; };
-		FF245BA31FE058DC00E202F1 /* LabelConfetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelConfetti.swift; sourceTree = "<group>"; };
-		FF245BA51FE058F000E202F1 /* ViewConfetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfetti.swift; sourceTree = "<group>"; };
-		FF245BAC1FE0607500E202F1 /* ButtonDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
-		FF245BAE1FE0607F00E202F1 /* LabelDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDesign.swift; sourceTree = "<group>"; };
-		FF245BB01FE0608800E202F1 /* ViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
 		FF245BB61FE061E100E202F1 /* ConfettiExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfettiExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF245BB81FE061E100E202F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF245BBA1FE061E100E202F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,8 +74,14 @@
 		FF245BD81FE061E100E202F1 /* ConfettiExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiExampleUITests.swift; sourceTree = "<group>"; };
 		FF245BDA1FE061E100E202F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF245BE61FE065F000E202F1 /* ConfettiDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiDesign.swift; sourceTree = "<group>"; };
-		FF245BE81FE07EDF00E202F1 /* ButtonDesignTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesignTemplate.swift; sourceTree = "<group>"; };
 		FF245BEA1FE0817400E202F1 /* Confetti.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Confetti.podspec; sourceTree = "<group>"; };
+		FF2BD4F31FE1EC5F00E31AA3 /* UIButton+Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Confetti.swift"; sourceTree = "<group>"; };
+		FF2BD4F51FE1ED1C00E31AA3 /* UILabel+Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Confetti.swift"; sourceTree = "<group>"; };
+		FF2BD4F71FE1ED5900E31AA3 /* UIView+Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Confetti.swift"; sourceTree = "<group>"; };
+		FF2BD5001FE1F7A200E31AA3 /* ConfettiContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiContainer.swift; sourceTree = "<group>"; };
+		FF2BD5021FE1F93C00E31AA3 /* ButtonDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
+		FF2BD5041FE1F94300E31AA3 /* LabelDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelDesign.swift; sourceTree = "<group>"; };
+		FF2BD5061FE1F94A00E31AA3 /* ViewDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +160,7 @@
 				FF245B861FE0581900E202F1 /* Info.plist */,
 				FF245B9F1FE0588E00E202F1 /* Confetti.swift */,
 				FF245BE61FE065F000E202F1 /* ConfettiDesign.swift */,
+				FF2BD5001FE1F7A200E31AA3 /* ConfettiContainer.swift */,
 			);
 			path = Confetti;
 			sourceTree = "<group>";
@@ -176,8 +177,8 @@
 		FF245B9C1FE0587400E202F1 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				FF245BA91FE05FC900E202F1 /* design */,
-				FF245BA51FE058F000E202F1 /* ViewConfetti.swift */,
+				FF2BD5061FE1F94A00E31AA3 /* ViewDesign.swift */,
+				FF2BD4F71FE1ED5900E31AA3 /* UIView+Confetti.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -185,8 +186,8 @@
 		FF245B9D1FE0587400E202F1 /* button */ = {
 			isa = PBXGroup;
 			children = (
-				FF245BAA1FE0606100E202F1 /* design */,
-				FF245BA11FE058B800E202F1 /* ButtonConfetti.swift */,
+				FF2BD5021FE1F93C00E31AA3 /* ButtonDesign.swift */,
+				FF2BD4F31FE1EC5F00E31AA3 /* UIButton+Confetti.swift */,
 			);
 			path = button;
 			sourceTree = "<group>";
@@ -194,35 +195,10 @@
 		FF245B9E1FE0587400E202F1 /* label */ = {
 			isa = PBXGroup;
 			children = (
-				FF245BAB1FE0606700E202F1 /* design */,
-				FF245BA31FE058DC00E202F1 /* LabelConfetti.swift */,
+				FF2BD5041FE1F94300E31AA3 /* LabelDesign.swift */,
+				FF2BD4F51FE1ED1C00E31AA3 /* UILabel+Confetti.swift */,
 			);
 			path = label;
-			sourceTree = "<group>";
-		};
-		FF245BA91FE05FC900E202F1 /* design */ = {
-			isa = PBXGroup;
-			children = (
-				FF245BB01FE0608800E202F1 /* ViewDesign.swift */,
-			);
-			path = design;
-			sourceTree = "<group>";
-		};
-		FF245BAA1FE0606100E202F1 /* design */ = {
-			isa = PBXGroup;
-			children = (
-				FF245BAC1FE0607500E202F1 /* ButtonDesign.swift */,
-				FF245BE81FE07EDF00E202F1 /* ButtonDesignTemplate.swift */,
-			);
-			path = design;
-			sourceTree = "<group>";
-		};
-		FF245BAB1FE0606700E202F1 /* design */ = {
-			isa = PBXGroup;
-			children = (
-				FF245BAE1FE0607F00E202F1 /* LabelDesign.swift */,
-			);
-			path = design;
 			sourceTree = "<group>";
 		};
 		FF245BB71FE061E100E202F1 /* ConfettiExample */ = {
@@ -469,15 +445,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF245BAF1FE0607F00E202F1 /* LabelDesign.swift in Sources */,
-				FF245BE91FE07EDF00E202F1 /* ButtonDesignTemplate.swift in Sources */,
-				FF245BA61FE058F000E202F1 /* ViewConfetti.swift in Sources */,
-				FF245BA41FE058DC00E202F1 /* LabelConfetti.swift in Sources */,
+				FF2BD4F41FE1EC5F00E31AA3 /* UIButton+Confetti.swift in Sources */,
+				FF2BD5011FE1F7A200E31AA3 /* ConfettiContainer.swift in Sources */,
 				FF245BA01FE0588E00E202F1 /* Confetti.swift in Sources */,
-				FF245BB11FE0608800E202F1 /* ViewDesign.swift in Sources */,
+				FF2BD5031FE1F93C00E31AA3 /* ButtonDesign.swift in Sources */,
+				FF2BD4F61FE1ED1C00E31AA3 /* UILabel+Confetti.swift in Sources */,
+				FF2BD5071FE1F94A00E31AA3 /* ViewDesign.swift in Sources */,
+				FF2BD4F81FE1ED5900E31AA3 /* UIView+Confetti.swift in Sources */,
+				FF2BD5051FE1F94300E31AA3 /* LabelDesign.swift in Sources */,
 				FF245BE71FE065F000E202F1 /* ConfettiDesign.swift in Sources */,
-				FF245BA21FE058B800E202F1 /* ButtonConfetti.swift in Sources */,
-				FF245BAD1FE0607500E202F1 /* ButtonDesign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

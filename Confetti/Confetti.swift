@@ -9,14 +9,11 @@
 import Foundation
 import UIKit
 
-public protocol Confetti : class {
-   
-    var congettiID:String? { get set}
+public protocol Confetti {
     func apply(design:ConfettiDesign)
 }
 
-public protocol ConfettiContainer {
-    func applyAll(designs:[ConfettiDesign])
-}
+
+
 
 

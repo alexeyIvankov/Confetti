@@ -10,5 +10,5 @@ import Foundation
 
 public protocol ConfettiDesign {
     
-    var congettiID:String { get }
+    var confettiID:String { get }
 }
