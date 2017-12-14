@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
         let button1Design:ButtonDesign = ButtonDesign(confettiID: "button1")
         button1Design.backgroundColor = UIColor.blue
-        button1Design.title = ("кнопка 1", UIControlState.normal)
+        button1Design.title = [("кнопка 1", UIControlState.normal)]
         button1Design.layerDesign = LayerDesign(confettiID: "button1")
         button1Design.layerDesign!.borderColor = UIColor.red
         button1Design.layerDesign!.borderWidth = 2

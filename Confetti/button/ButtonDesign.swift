@@ -11,13 +11,13 @@ import UIKit
 
 open class ButtonDesign : ViewDesign {
     
-    public var titleColor: (UIColor, UIControlState)?
-    public var titleShadowColor: (UIColor, UIControlState)?
-    public var title: (String, UIControlState)?
-    public var attributedTitle: (NSAttributedString, UIControlState)?
+    public var titleColor: [(UIColor, UIControlState)]?
+    public var titleShadowColor: [(UIColor, UIControlState)]?
+    public var title: [(String, UIControlState)]?
+    public var attributedTitle: [(NSAttributedString, UIControlState)]?
    
-    public var image: (UIImage, UIControlState)?
-    public var backgroundImage: (UIImage, UIControlState)?
+    public var image: [(UIImage, UIControlState)]?
+    public var backgroundImage: [(UIImage, UIControlState)]?
     
     public var titleLabelDesign:LabelDesign?
     

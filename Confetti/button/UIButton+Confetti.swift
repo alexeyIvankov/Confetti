@@ -18,33 +18,50 @@ extension UIButton  {
             self.apply(design: design)
             
             if buttonDesign.titleColor != nil{
-                self.setTitleColor(buttonDesign.titleColor!.0, for: buttonDesign.titleColor!.1)
+                
+                for (value, state) in buttonDesign.titleColor!{
+                    self.setTitleColor(value, for: state)
+                }
             }
             
             if buttonDesign.titleShadowColor != nil{
-                self.setTitleShadowColor(buttonDesign.titleShadowColor!.0, for: buttonDesign.titleShadowColor!.1)
+                
+                for (value, state) in buttonDesign.titleShadowColor!{
+                     self.setTitleShadowColor(value, for: state)
+                }
             }
             
             if buttonDesign.title != nil{
-                self.setTitle(buttonDesign.title!.0, for: buttonDesign.title!.1)
+                
+                for (value, state) in buttonDesign.title!{
+                    self.setTitle(value, for: state)
+                }
             }
             
             if buttonDesign.attributedTitle != nil{
-                self.setAttributedTitle(buttonDesign.attributedTitle!.0, for: buttonDesign.attributedTitle!.1)
+                
+                for (value, state) in buttonDesign.attributedTitle!{
+                    self.setAttributedTitle(value, for: state)
+                }
             }
             
             if buttonDesign.image != nil{
-                self.setImage(buttonDesign.image!.0, for: buttonDesign.image!.1)
+                
+                for (value, state) in buttonDesign.image!{
+                    self.setImage(value, for: state)
+                }
             }
             
             if buttonDesign.backgroundImage != nil{
-                self.setBackgroundImage(buttonDesign.backgroundImage!.0, for: buttonDesign.backgroundImage!.1)
+                
+                for (value, state) in buttonDesign.backgroundImage!{
+                    self.setBackgroundImage(value, for: state)
+                }
             }
             
             if buttonDesign.titleLabelDesign != nil{
                 self.titleLabel?.applyLabel(design: buttonDesign.titleLabelDesign!)
             }
-        
         }
     }
 }
