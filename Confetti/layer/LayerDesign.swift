@@ -1,5 +1,5 @@
 //
-//  ViewDesign.swift
+//  LayerDesign.swift
 //  Confetti
 //
 //  Created by Alexey Ivankov on 14.12.2017.
@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-open class ViewDesign : ConfettiDesign {
-    
+open class LayerDesign : ConfettiDesign  {
+   
     public var confettiID: String
-    public var backgroundColor:UIColor?
-    public var tintColor:UIColor?
-    public var alpha:Float?
-    public var layerDesign:LayerDesign?
+    public var cornerRadius:Float?
+    public var borderWidth:Float?
+    public var borderColor:UIColor?
+    public var shadowColor:UIColor?
     
     required public init(confettiID: String){
         self.confettiID = confettiID

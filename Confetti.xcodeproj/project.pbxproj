@@ -27,6 +27,8 @@
 		FF2BD5031FE1F93C00E31AA3 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD5021FE1F93C00E31AA3 /* ButtonDesign.swift */; };
 		FF2BD5051FE1F94300E31AA3 /* LabelDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD5041FE1F94300E31AA3 /* LabelDesign.swift */; };
 		FF2BD5071FE1F94A00E31AA3 /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD5061FE1F94A00E31AA3 /* ViewDesign.swift */; };
+		FF2BD50A1FE2483000E31AA3 /* LayerDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD5091FE2483000E31AA3 /* LayerDesign.swift */; };
+		FF2BD50C1FE2483D00E31AA3 /* CALayer+Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BD50B1FE2483D00E31AA3 /* CALayer+Confetti.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		FF2BD5021FE1F93C00E31AA3 /* ButtonDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
 		FF2BD5041FE1F94300E31AA3 /* LabelDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelDesign.swift; sourceTree = "<group>"; };
 		FF2BD5061FE1F94A00E31AA3 /* ViewDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
+		FF2BD5091FE2483000E31AA3 /* LayerDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerDesign.swift; sourceTree = "<group>"; };
+		FF2BD50B1FE2483D00E31AA3 /* CALayer+Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Confetti.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,7 @@
 		FF245B841FE0581900E202F1 /* Confetti */ = {
 			isa = PBXGroup;
 			children = (
+				FF2BD5081FE2481900E31AA3 /* layer */,
 				FF245B9D1FE0587400E202F1 /* button */,
 				FF245B9E1FE0587400E202F1 /* label */,
 				FF245B9C1FE0587400E202F1 /* view */,
@@ -237,6 +242,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF2BD5081FE2481900E31AA3 /* layer */ = {
+			isa = PBXGroup;
+			children = (
+				FF2BD5091FE2483000E31AA3 /* LayerDesign.swift */,
+				FF2BD50B1FE2483D00E31AA3 /* CALayer+Confetti.swift */,
+			);
+			path = layer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,6 +462,8 @@
 				FF2BD4F41FE1EC5F00E31AA3 /* UIButton+Confetti.swift in Sources */,
 				FF2BD5011FE1F7A200E31AA3 /* ConfettiContainer.swift in Sources */,
 				FF245BA01FE0588E00E202F1 /* Confetti.swift in Sources */,
+				FF2BD50A1FE2483000E31AA3 /* LayerDesign.swift in Sources */,
+				FF2BD50C1FE2483D00E31AA3 /* CALayer+Confetti.swift in Sources */,
 				FF2BD5031FE1F93C00E31AA3 /* ButtonDesign.swift in Sources */,
 				FF2BD4F61FE1ED1C00E31AA3 /* UILabel+Confetti.swift in Sources */,
 				FF2BD5071FE1F94A00E31AA3 /* ViewDesign.swift in Sources */,

@@ -16,6 +16,10 @@ extension UIView : Confetti, ConfettiContainer {
         
         if let viewDesign = design as? ViewDesign {
             
+            if viewDesign.layerDesign != nil{
+                self.layer.applyLayer(design: viewDesign.layerDesign!)
+            }
+            
             if viewDesign.backgroundColor != nil{
                 self.backgroundColor = viewDesign.backgroundColor
             }
