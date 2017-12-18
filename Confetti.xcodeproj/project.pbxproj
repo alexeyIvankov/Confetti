@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF16D5941FE766F700138649 /* NavigationBarDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF16D5931FE766F700138649 /* NavigationBarDesign.swift */; };
+		FF16D5961FE7673B00138649 /* UINavigationBar+Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF16D5951FE7673B00138649 /* UINavigationBar+Confetti.swift */; };
 		FF245B8C1FE0581900E202F1 /* Confetti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF245B821FE0581900E202F1 /* Confetti.framework */; };
 		FF245B911FE0581900E202F1 /* ConfettiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245B901FE0581900E202F1 /* ConfettiTests.swift */; };
 		FF245BA01FE0588E00E202F1 /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF245B9F1FE0588E00E202F1 /* Confetti.swift */; };
@@ -56,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF16D5931FE766F700138649 /* NavigationBarDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDesign.swift; sourceTree = "<group>"; };
+		FF16D5951FE7673B00138649 /* UINavigationBar+Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Confetti.swift"; sourceTree = "<group>"; };
 		FF245B821FE0581900E202F1 /* Confetti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Confetti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF245B861FE0581900E202F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF245B8B1FE0581900E202F1 /* ConfettiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfettiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +133,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF16D5921FE766E300138649 /* navigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				FF16D5931FE766F700138649 /* NavigationBarDesign.swift */,
+				FF16D5951FE7673B00138649 /* UINavigationBar+Confetti.swift */,
+			);
+			path = navigationBar;
+			sourceTree = "<group>";
+		};
 		FF245B781FE0581900E202F1 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +171,7 @@
 		FF245B841FE0581900E202F1 /* Confetti */ = {
 			isa = PBXGroup;
 			children = (
+				FF16D5921FE766E300138649 /* navigationBar */,
 				FF2BD5081FE2481900E31AA3 /* layer */,
 				FF245B9D1FE0587400E202F1 /* button */,
 				FF245B9E1FE0587400E202F1 /* label */,
@@ -470,6 +484,8 @@
 				FF2BD4F81FE1ED5900E31AA3 /* UIView+Confetti.swift in Sources */,
 				FF2BD5051FE1F94300E31AA3 /* LabelDesign.swift in Sources */,
 				FF245BE71FE065F000E202F1 /* ConfettiDesign.swift in Sources */,
+				FF16D5941FE766F700138649 /* NavigationBarDesign.swift in Sources */,
+				FF16D5961FE7673B00138649 /* UINavigationBar+Confetti.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
